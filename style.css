@@ -3,14 +3,28 @@ body {
   /*  background-color: burlywood;*/
 }
 
+h1,
+h2,
+p {
+  text-align: center;
+}
+
 .menu {
   width: 80%;
   background-color: burlywood;
   margin: auto;
 }
 
-h1,
-h2,
-p {
-  text-align: center;
+.flavor {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 24%;
+}
+
+.item p {
+  display: inline-block;
 }
