@@ -13,9 +13,11 @@ p {
   width: 80%;
   background-color: burlywood;
   margin: auto;
+  padding: 0 20px;
 }
 
-.flavor {
+.flavor,
+.dessert {
   text-align: left;
   width: 75%;
 }
