@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  padding: 20px;
   /*  background-color: burlywood;*/
 }
 
@@ -22,6 +23,13 @@ h1 {
 h2 {
   font-size: 30px;
 }
+
+hr {
+  height: 2px;
+  background-color: chocolate;
+  border-color: brown;
+}
+
 .menu {
   width: 80%;
   max-width: 500px;
@@ -43,8 +51,14 @@ h2 {
 
 .item p {
   display: inline-block;
+  margin: 5px 0;
+  font-size: 18px;
 }
 
 .established {
   font-style: italic;
+}
+
+.bottom-line {
+  margin-top: 25px;
 }
