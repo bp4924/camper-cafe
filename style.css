@@ -18,6 +18,8 @@ h2 {
 
 h1 {
   font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -28,6 +30,11 @@ hr {
   height: 2px;
   background-color: chocolate;
   border-color: brown;
+}
+
+img {
+  display: block;
+  margin: -25px auto;
 }
 
 .menu {
@@ -83,4 +90,8 @@ a:hover {
 
 a:active {
   color: brown;
+}
+
+.address {
+  margin-bottom: 5px;
 }
